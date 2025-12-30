@@ -12,6 +12,7 @@
 
         // L0: GRAPHITE BASE
         graphite_layer {
+            display-name = "GRAPH"; // This shows on the OLED
             bindings = <
                 // ╭───────────┬───────────┬───────────┬────────────┬────────────┬────────────╮ ╭───────────┬─────────────┬─────────────┬─────────────┬────────────┬───────────╮
                       &trans      &kp B        &kp L        &kp D       &kp W         &kp Z        &kp SQT       &kp F        &kp O         &kp U         &kp J       &trans
@@ -29,6 +30,7 @@
         // L1: NAV (VIM MUSCLE MEMORY)
 
         nav_layer {
+            display-name = "NAV"; // This shows on the OLED
             bindings = <
                 // ╭───────────┬───────────┬───────────┬────────────┬────────────┬────────────╮ ╭───────────┬────────────┬─────────────┬─────────────┬────────────┬───────────╮
                       &trans      &kp TAB    &kp HOME     &kp UP       &kp END      &kp PG_UP       &none       &none         &none         &none        &kp DEL      &trans
@@ -45,6 +47,7 @@
         // L2: SYMBOLS
 
         sym_layer {
+            display-name = "SYM"; // This shows on the OLED
             bindings = <
                 // ╭───────────┬───────────┬───────────┬────────────┬────────────┬────────────╮ ╭───────────┬────────────┬─────────────┬─────────────┬────────────┬───────────╮
                       &trans      &kp EXCL    &kp AT     &kp LBRC      &kp RBRC     &kp PIPE      &kp GRAVE   &kp TILDE     &kp LBKT      &kp RBKT      &kp BSLH     &trans
@@ -61,6 +64,7 @@
         // L3: NUMBERS
 
         num_layer {
+            display-name = "NUM"; // This shows on the OLED
             bindings = <
                 // ╭───────────┬────────────────┬───────────┬────────────────┬───────────────┬────────────╮ ╭───────────┬────────────┬─────────────┬─────────────┬────────────┬───────────╮
                       &trans         &trans        &trans         &trans         &trans          &trans        &trans        &kp N7       &kp N8       &kp N9        &trans      &trans
@@ -77,6 +81,7 @@
         // L4: FUNCTION / MEDIA
 
         fun_layer {
+            display-name = "FUN"; // This shows on the OLED
             bindings = <
                 // ╭───────────┬───────────┬───────────┬────────────┬────────────┬───────────────╮ ╭─────────────────────┬────────────┬─────────────┬─────────────┬────────────┬───────────╮
                       &trans      &kp F12     &kp F7       &kp F8       &kp F9      &kp PSCRN       &kp C_BRI_UP          &kp C_VOL_UP  &kp C_MUTE       &none        &none        &trans
@@ -93,6 +98,7 @@
         // L5: GAMING (NO HRM, WASD FOCUS)
 
         gaming_layer {
+            display-name = "GAME"; // This shows on the OLED
             bindings = <
                 // ╭───────────┬───────────┬───────────┬────────────┬────────────┬────────────╮ ╭───────────┬────────────┬─────────────┬─────────────┬────────────┬───────────╮
                       &trans      &kp LALT    &kp Q       &kp W         &kp E        &kp R          &kp T       &kp Y         &kp U          &kp I        &kp O       &trans
@@ -109,6 +115,7 @@
         // L6: GAMING NUMS (HOLD THUMB IN GAME)
 
         gaming_sub_layer {
+            display-name = "G2"; // This shows on the OLED
             bindings = <
                 // ╭───────────┬───────────┬───────────┬────────────┬────────────┬────────────╮ ╭───────────┬────────────┬─────────────┬─────────────┬────────────┬───────────╮
                       &trans       &kp N5     &kp N4       &kp N3       &kp N2       &kp N1         &kp F1      &kp F2        &kp F3        &kp F4       &kp F5       &trans
