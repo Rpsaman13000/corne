@@ -5,14 +5,14 @@
         // Press both inner thumbs to toggle Gaming Mode
         combo_gaming_toggle {
             timeout-ms = <50>;
-            key-positions = <31 32>;
+            key-positions = <38 39>;
             bindings = <&tog 5>;
         };
 
         // J + K (Graphite H + A) for Escape
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <16 17>;
+            key-positions = <19 20>;
             bindings = <&kp ESC>;
         };
     };
